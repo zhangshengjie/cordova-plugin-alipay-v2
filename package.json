@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-alipay-v2",
+  "name": "cordova-plugin-alipay-v2-plus",
   "version": "2.0.1",
   "description": "a cordova plugin, a JS version of Alipay SDK(201112210139)",
   "cordova": {
-    "id": "cordova-plugin-alipay-v2",
+    "id": "cordova-plugin-alipay-v2-plus",
     "platforms": [
       "android",
       "ios"
@@ -15,7 +15,8 @@
     "cordova-ios",
     "alipay",
     "cordova-plugin-alipay",
-    "cordova-plugin-alipay-v2"
+    "cordova-plugin-alipay-v2",
+    "cordova-plugin-alipay-v2-plus"
   ],
   "repository": {
     "type": "git",
@@ -25,6 +26,6 @@
     "url": "https://github.com/zhangshengjie/cordova-plugin-alipay-v2/issues"
   },
   "homepage": "https://github.com/zhangshengjie/cordova-plugin-alipay-v2#readme",
-  "author": "hhjjj1010",
+  "author": "cejay",
   "license": "ISC"
 }
