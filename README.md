@@ -5,6 +5,12 @@
 
 __本插件仅支持《APP支付》，不支持移动支付__
 
+__
+
+## 2019-12-17 更新日志
+
+- 更新截止到今天最新SDK
+
 ## 2019-07-31 更新日志
 - Android SDK 更新至alipaySdk-15.6.5-20190718211148.aar。
 - iOS SDK 已适配 iPhoneX，支持 IPv6_only 网络和 ATS 安全标准。
@@ -65,17 +71,17 @@ cordova.plugins.alipay.payment(payInfo, (e) => {
 ## 在线安装
 npm安装
 ```shell
-cordova plugin add cordova-plugin-alipay-v2 --variable APP_ID=your AppId
+[fork前版本] cordova plugin add cordova-plugin-alipay-v2 --variable APP_ID=your AppId
 ```
 git安装
 ``` shell
-cordova plugin add https://github.com/hhjjj1010/cordova-plugin-alipay-v2.git --variable APP_ID=your AppId
+cordova plugin add https://github.com/zhangshengjie/cordova-plugin-alipay-v2.git --variable APP_ID=your AppId
 ```
 
 ## 本地安装
 下载插件到本地
 ``` shell
-cordova plugin add /your/local/path --variable APP_ID=your AppId
+[fork前版本] cordova plugin add /your/local/path --variable APP_ID=your AppId
 ```
 
 ***
